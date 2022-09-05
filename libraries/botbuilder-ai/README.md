@@ -31,7 +31,7 @@ npm config set registry https://registry.npmjs.org/
 
 ## What's included?
 
-This module contains interfaces for using [Microsoft LUIS](https://www.luis.ai) and [Microsoft QnA Maker](https://www.qnamaker.ai) in your Botbuilder application.
+This module contains interfaces for using [Microsoft LUIS](https://www.luis.ai) and [Microsoft QnA Maker](https://www.qnamaker.ai) or [Language Custom question answering](https://language.cognitive.azure.com/questionAnswering/projects) in your Botbuilder application.
 
 ## Use
 
@@ -84,7 +84,7 @@ server.post('/api/messages', (req, res) => {
 ## Examples
 
 See this module in action in these example apps:
-
+* [Custom Question Answering] (https://github.com/microsoft/BotBuilder-Samples/tree/main/samples/javascript_nodejs/12.customQABot)
 * [QnA Maker](https://github.com/Microsoft/BotBuilder-Samples/tree/main/samples/javascript_nodejs/11.qnamaker)
 * [LUIS](https://github.com/Microsoft/BotBuilder-Samples/tree/main/samples/javascript_nodejs/12.nlp-with-luis)
 * [Using LUIS and QnA Maker together with Dispatch](https://github.com/Microsoft/BotBuilder-Samples/tree/main/samples/javascript_nodejs/14.nlp-with-dispatch)
